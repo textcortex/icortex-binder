@@ -1,2 +1,4 @@
 media/
 .ipynb_checkpoints/
+cache.json
+icortex.toml

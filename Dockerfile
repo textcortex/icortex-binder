@@ -18,7 +18,7 @@ RUN pip install -r requirements.txt
 
 RUN pip install icortex
 RUN python -m icortex.kernel.install
-RUN jupyter kernelspec uninstall python3 -y
+# RUN jupyter kernelspec uninstall python3 -y
 COPY . ${HOME}
 RUN chown -R ${NB_UID} ${HOME}
 
